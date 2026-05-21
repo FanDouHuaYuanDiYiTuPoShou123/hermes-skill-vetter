@@ -1,12 +1,10 @@
-# Skill Vet — Security Vetting Protocol for AI Agent Skills
-
-> **Paranoia is a feature.** 🔒🦀
+# Skill Vetter — Security Vetting Protocol for AI Agent Skills
 
 A structured, repeatable security vetting protocol for AI agent skills — specifically designed for the Hermes Agent ecosystem, but applicable to any skill-based AI agent system.
 
 ## What It Does
 
-Skill Vet is not a scanner — it's a **human-in-the-loop vetting protocol**. It gives you a step-by-step checklist to manually review any skill before installing it, catching:
+Skill Vetter is not a scanner — it's a **human-in-the-loop vetting protocol**. It gives you a step-by-step checklist to manually review any skill before installing it, catching:
 
 - Credential/access token exfiltration patterns
 - Malicious network calls to unknown endpoints
@@ -22,7 +20,6 @@ Load as a skill in Hermes Agent:
 
 ```
 skills/
-└── software-development/
     └── skill-vetter/
         ├── SKILL.md           ← main protocol
         └── references/
