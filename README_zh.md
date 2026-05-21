@@ -1,11 +1,14 @@
 # Skill Vetter — AI Agent 技能安全审查协议
 
+<a href="README.md"><img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge" alt="English"></a> <a href="README_zh.md"><img src="https://img.shields.io/badge/Lang-中文-red?style=for-the-badge" alt="中文"></a>
+
+> **偏执是一种特质。** 🔒🦀
 
 一套结构化、可重复执行的 AI Agent 技能安全审查协议 —— 专为 Hermes Agent 生态系统设计，同时适用于任何基于技能（skill-based）的 AI Agent 系统。
 
 ## 功能说明
 
-Skill Vetter  —— 它是一个**人工介入的审查协议**。它提供逐步检查清单，让你在安装任何技能前进行手动审查，能发现：
+Skill Vetter 不是扫描器 —— 它是一个**人工介入的审查协议**。它提供逐步检查清单，让你在安装任何技能前进行手动审查，能发现：
 
 - 凭证/访问令牌泄露模式
 - 向未知端点的恶意网络请求
@@ -78,7 +81,7 @@ skill-vetter/
 │   └── workflows/
 │       └── ci.yml             # 基本验证
 ├── LICENSE
-└── README.md / README_zh.md    # 中英文说明文档
+└── README.md / README_zh.md
 ```
 
 ## 参与贡献

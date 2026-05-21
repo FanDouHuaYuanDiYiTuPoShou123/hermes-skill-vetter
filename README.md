@@ -1,5 +1,9 @@
 # Skill Vetter — Security Vetting Protocol for AI Agent Skills
 
+<a href="README_zh.md"><img src="https://img.shields.io/badge/Lang-中文-red?style=for-the-badge" alt="中文"></a> <a href="README.md"><img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge" alt="English"></a>
+
+> **Paranoia is a feature.** 🔒🦀
+
 A structured, repeatable security vetting protocol for AI agent skills — specifically designed for the Hermes Agent ecosystem, but applicable to any skill-based AI agent system.
 
 ## What It Does
@@ -77,7 +81,7 @@ skill-vetter/
 │   └── workflows/
 │       └── ci.yml             # Basic validation
 ├── LICENSE
-└── README.md
+└── README.md / README_zh.md
 ```
 
 ## Contributing
