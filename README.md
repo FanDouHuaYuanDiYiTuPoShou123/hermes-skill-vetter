@@ -1,4 +1,4 @@
-# Skill Vetter — Security Vetting Protocol for AI Agent Skills
+# Skill Vet — Security Vetting Protocol for AI Agent Skills
 
 > **Paranoia is a feature.** 🔒🦀
 
@@ -6,7 +6,7 @@ A structured, repeatable security vetting protocol for AI agent skills — speci
 
 ## What It Does
 
-Skill Vet is not a scanner — it's a **human-in-the-loop vetting protocol**. It gives you a step-by-step checklist to manually review any skill before installing it, catching:
+Skill Vetter is not a scanner — it's a **human-in-the-loop vetting protocol**. It gives you a step-by-step checklist to manually review any skill before installing it, catching:
 
 - Credential/access token exfiltration patterns
 - Malicious network calls to unknown endpoints
