@@ -1,4 +1,4 @@
-# Skill Vet — Security Vetting Protocol for AI Agent Skills
+# Skill Vetter — Security Vetting Protocol for AI Agent Skills
 
 > **Paranoia is a feature.** 🔒🦀
 
