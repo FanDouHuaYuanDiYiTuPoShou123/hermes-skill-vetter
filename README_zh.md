@@ -1,12 +1,11 @@
-# Skill Vet — AI Agent 技能安全审查协议
+# Skill Vetter — AI Agent 技能安全审查协议
 
-> **偏执是一种特质。** 🔒🦀
 
 一套结构化、可重复执行的 AI Agent 技能安全审查协议 —— 专为 Hermes Agent 生态系统设计，同时适用于任何基于技能（skill-based）的 AI Agent 系统。
 
 ## 功能说明
 
-Skill Vet 不是扫描器 —— 它是一个**人工介入的审查协议**。它提供逐步检查清单，让你在安装任何技能前进行手动审查，能发现：
+Skill Vetter  —— 它是一个**人工介入的审查协议**。它提供逐步检查清单，让你在安装任何技能前进行手动审查，能发现：
 
 - 凭证/访问令牌泄露模式
 - 向未知端点的恶意网络请求
@@ -22,7 +21,6 @@ Skill Vet 不是扫描器 —— 它是一个**人工介入的审查协议**。�
 
 ```
 skills/
-└── software-development/
     └── skill-vetter/
         ├── SKILL.md           ← 主要协议文档
         └── references/
