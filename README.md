@@ -6,7 +6,7 @@ A structured, repeatable security vetting protocol for AI agent skills — speci
 
 ## What It Does
 
-Skill Vetter is not a scanner — it's a **human-in-the-loop vetting protocol**. It gives you a step-by-step checklist to manually review any skill before installing it, catching:
+Skill Vet is not a scanner — it's a **human-in-the-loop vetting protocol**. It gives you a step-by-step checklist to manually review any skill before installing it, catching:
 
 - Credential/access token exfiltration patterns
 - Malicious network calls to unknown endpoints
@@ -47,7 +47,7 @@ curl -s "https://api.github.com/repos/OWNER/REPO" | jq '{stars: .stargazers_coun
 Step 1: Source Check        — Where did this skill come from?
 Step 2: Read ALL Files      — SKILL.md + scripts + references
 Step 3: Red Flag Checklist  — Immediate reject patterns
-Step 4: Permission Audit     — What does it actually need?
+Step 4: Permission Audit    — What does it actually need?
 Step 5: Risk Classification — LOW / MEDIUM / HIGH / EXTREME
 ```
 
