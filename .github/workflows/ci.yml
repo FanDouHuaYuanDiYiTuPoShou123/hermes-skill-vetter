@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          echo "=== Checking required files ==="
+          test -f SKILL.md && echo "SKILL.md: OK" || exit 1
+          test -f references/red-flags.md && echo "references/red-flags.md: OK" || exit 1
+          test -f LICENSE && echo "LICENSE: OK" || exit 1
+
+      - name: Run validation script
+        run: python3 scripts/validate.py
